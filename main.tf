@@ -8,7 +8,7 @@ module "ondrejsika" {
   version                = "0.2.0"
   name                   = "ondrejsika"
   azurerm_resource_group = azurerm_resource_group.ondrejsika
-  node_count             = 2
+  node_count             = 3
   kubernetes_version     = "1.19.7"
 }
 
