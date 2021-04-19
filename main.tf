@@ -9,7 +9,7 @@ module "ondrejsika" {
   name                   = "ondrejsika"
   azurerm_resource_group = azurerm_resource_group.ondrejsika
   node_count             = 2
-  kubernetes_version = "1.19.7"
+  kubernetes_version     = "1.19.7"
 }
 
 output "kubeconfig" {
